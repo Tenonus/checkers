@@ -24,7 +24,8 @@ namespace Checkers.Controllers
             figure.Move(new Point(1, 3));
             _service.RenderBoard(board);
 
-            figure.Move(new Point(2, 4));
+            var figure1 = board.SingleOrDefault(x => x.Position.X == 2 && x.Position.Y == 2);
+            figure1.Move(new Point(1, 3));
             _service.RenderBoard(board);
         }
 

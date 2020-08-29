@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "..\Tests\Tests.csproj", "{9ADD2772-AD7B-475F-A7C7-3A1B7A02FEF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{9ADD2772-AD7B-475F-A7C7-3A1B7A02FEF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkers", "Checkers\Checkers.csproj", "{B284F970-1345-4157-943F-5A6F548E9F86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkers", "Checkers\Checkers.csproj", "{B284F970-1345-4157-943F-5A6F548E9F86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkers.BLL", "Checkers.BLL\Checkers.BLL.csproj", "{4F9CE9A6-40E8-4998-8A9C-F861E84F14B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkers.BLL", "Checkers.BLL\Checkers.BLL.csproj", "{4F9CE9A6-40E8-4998-8A9C-F861E84F14B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkers.DAL", "Checkers.DAL\Checkers.DAL.csproj", "{57A66422-CA68-4329-9DC0-8CE40BFEE1CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkers.DAL", "Checkers.DAL\Checkers.DAL.csproj", "{57A66422-CA68-4329-9DC0-8CE40BFEE1CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

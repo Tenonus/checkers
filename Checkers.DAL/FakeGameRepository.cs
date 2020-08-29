@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Checkers.BLL.Abstraction;
 using Checkers.BLL.Models;
-using Checkers.DAL.Abstractions;
 
 namespace Checkers.DAL
 {

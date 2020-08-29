@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Checkers.BLL\Checkers.BLL.csproj" />
+    <ProjectReference Include="..\Checkers.DAL\Checkers.DAL.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,6 @@
 ﻿using Checkers.BLL;
 using Checkers.BLL.Abstraction;
+using Checkers.DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -23,6 +24,7 @@ namespace Checkers
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddScoped<IGameService, GameService>();
+            services.AddScoped<IGameRepository, FakeGameRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
